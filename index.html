@@ -7,17 +7,15 @@
 			<!-- GOOGLE FONTS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
 		<link href='https://fonts.googleapis.com/css?family=Ubuntu:400,700,500' rel='stylesheet' type='text/css'>
 
+    <link href='https://fonts.googleapis.com/css?family=Stardos+Stencil:700' rel='stylesheet' type='text/css'>
 			<!-- BOOTSTRAP >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
   	<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 				<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
-		<!-- Optional theme -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
-
-		<!-- Latest compiled and minified JavaScript -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
 		<link rel="stylesheet" type="text/css" href="master.css">
 
@@ -25,64 +23,95 @@
 	</head>
 	<body>
 		<header>
-			<div id="#header-container" class="container col-xs-12">
-				<div class="row">
-					<div class="brand container">
-						<!--<img class="logo img-responsive col-xs-3" src="images/logo.png" alt=""> -->
-						<h1 class="col-xs-2 brand-name">
-							<a href="./">EXPOBICIPR</a>
-						</h1>
-					</div>
-				</div>
-			</div>
 
       <!-- Static navbar -->
-      <nav class="navbar navbar-default">
-        <div id="#nav-container" class="container-fluid">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
-            <h1 class="brand-name"><a href="./">EXPOBICIPR</a></h1>
-          </div>
-          <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Contact</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li class="dropdown-header">Nav header</li>
-                  <li><a href="#">Separated link</a></li>
-                  <li><a href="#">One more separated link</a></li>
-                </ul>
-              </li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-              <li class="active"><a href="./">Default <span class="sr-only">(current)</span></a></li>
-              <li><a href="../navbar-static-top/">Static top</a></li>
-              <li><a href="../navbar-fixed-top/">Fixed top</a></li>
-            </ul>
-          </div><!--/.nav-collapse -->
-        </div><!--/.container-fluid -->
-      </nav>
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <div class="branding-stuff col-xs-4">
+                 <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+                 <h1 class="brand-name"><a href="./">EXPOBICIPR</a></h1>
+               </div>
+            </div>
+            <br class='clr' />
 
-
-
-
-
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id=".navbar-collapse">
+              <ul class="nav navbar-nav navbar-left">
+                <li class="navlink"><a href="#">QUE ES EXPOBICI?</a></li>
+                <li class="navlink"><a href="#">EXPO</a></li>
+                <li class="navlink"><a href="#">OPORTUNIDADES</a></li>
+                <li class="navlink"><a href="#">EXHIBIDOR</a></li>
+                <li class="navlink"><a href="#">PLANOS</a></li>
+                <li class="navlink"><a href="#">AUSPICIOS</a></li>
+                <li class="navlink"><a href="#">PUBLICIDAD</a></li>
+                <li class="navlink"><a href="#">CONTÁCTENOS</a></li>
+                <li class="navlink"><a href="#">ENGLISH</a></li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
 		</header>
 
+    <!-- **************************************************
+    ************************ HERO TEXT ********************
+    *****************************************************-->
+    <section>
+      <div class='hero container-fluid text-center'>
+        <div class='hero-message col-xs-8 col-xs-offset-2'>
+          <h1> EXPO<span style="color:white">BICI</span>PR</h1>
+          <h3> 15/16 DE OCTUBRE 2016 </h3>
+          <h3> CENTRO DE CONVENCIONES DE PUERTO RICO</h3>
+      </div>
+    </section>
 
 
+    <!-- **************************************************
+    ***************** SECOND SECTION  *********************
+    *****************************************************-->
+    <section id="second-section">
+      <div class='container-fluid text-center'>
+        <h3 id="el-evento"> EL EVENTO EXPO<span style="color:#F2A413">BICI</span> </h3>
+      </div>
+
+      <div class="row">
+        <div id="secbox1" class="secbox text-center col-sm-6 col-xs-12">
+          Box1
+        </div>
+
+        <div id="secbox2" class="secbox text-center col-sm-6 col-xs-12">
+          Box2
+        </div>
+      </div>
+    </section>
+
+        <!-- **************************************************
+    ******************** GOOGLE MAPS  *************************
+    *****************************************************-->
+
+    <section id="google-maps">
+    </section>
+
+    <!-- **************************************************
+    ******************** FOOTER ***************************
+    *****************************************************-->
+
+    <section id="footer">
+
+    </section>
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
 	</body>
 </html>

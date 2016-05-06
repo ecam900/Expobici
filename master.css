@@ -5,11 +5,7 @@ body {
 	font-family: 'Ubuntu', sans-serif;
 }
 
-.brand-name a {
-	font-weight: bold;
-	font-size: .62em;
-	color: white;
-}
+
 
 a:link {
 	text-decoration: none;
@@ -23,14 +19,11 @@ a:link {
 	max-height: 32px;
 }
 
-/* MEDIA QUERIES FOR RESPONSIVE LAYOUTS */
-
-@media only screen and (max-width: 500px) {
-    body {
-        background-color:black;
-    }
-
+.container-fluid {
+  background-color: #2d2a28;
 }
+
+
 
 
 /* Navbar stuff ------------------------ */
@@ -88,10 +81,6 @@ a:link {
   color: #ffa500;
 }
 
-#navbar{
-	background-color: #2d2a28;
-}
-
 .navbar {
 	background-color: #2d2a28;
 }
@@ -100,15 +89,15 @@ a:link {
 	background-color: #2d2a28;
 }
 
-
-
-
 .navbar-default {
     background-color: #2d2a28;
     border-color: #2d2a28;
 }
 .navbar-default .navbar-nav > li > a {
-    color: #ffa500;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 1.25em;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
     background-color: #2d2a28;
@@ -118,28 +107,396 @@ a:link {
 .navbar-header {
   background-color: #2d2a28;
   color: #ffa500;
+  vertical-align: middle;
 }
 
-#nav-container {
-  background-color: #2d2a28;
-  color: #2d2a28;
+.branding-stuff {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 20px;
+  ;
+}
+.navbar-brand {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 20px;
+  padding-right:-10px;
+  float:left;
 }
 
-.container-fluid {
-  background-color: #2d2a28;
+.navbar-brand a {
+  margin-right: -5px;
+  float:left;
 }
-/*@media (max-width: 767px) {
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #ffa500;
+
+
+.brand-name {
+  padding-right: 100px;
+  width: auto;
+  line-height: 15px;
+  position: relative;
+}
+
+.brand-name a {
+  font-weight: bold;
+  font-size: .62em;
+  color: white;
+  position: absolute;
+ }
+
+ .clr {
+  clear:both;
+ }
+
+/*****************************
+***** HERO (MAIN IMAGE) *****
+*****************************/
+
+.hero {
+  background: url("images/hero.png") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 400px;
+  box-shadow: 0px 3px 8px #2a2a2a;
+}
+
+.hero-message {
+  font-color: black;
+  margin-top: 100px;
+  font-family: 'Stardos Stencil', sans-serif;
+  font-weight: bold;
+}
+
+.hero-message h1 {
+  font-size: 3em;
+  font-color: black;
+}
+
+
+
+
+
+
+/*****************************
+***** HERO (MAIN IMAGE) *****
+*****************************/
+
+.hero {
+  background: url("images/hero.png") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 400px;
+  box-shadow: 0px 3px 8px #2a2a2a;
+}
+
+.hero-message {
+  margin-top: 20px;
+  font-family: 'Stardos Stencil', sans-serif;
+  color: white;
+  background-color:rgba(0,0,0,0.0);
+}
+
+.hero-message h1 {
+  font-size: 7em;
+  color:#F2A413;
+}
+
+.hero-message h3 {
+  font-size: 3em;
+  color: white;
+}
+
+/*****************************
+********* SECTION 2 **********
+*****************************/
+
+#el-evento {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size:3em;
+  margin-top: 38px;
+}
+
+
+#second-section {
+}
+
+.secbox {
+  background-color: white;
+  min-height: 300px;
+}
+
+/*****************************
+********* SECTION 3 **********
+*****************************/
+
+#third-section {
+  height: 350px;
+  background-color: blue;
+}
+
+
+/*****************************
+********* GOOGLE MAP**********
+*****************************/
+
+#google-maps {
+
+}
+
+
+
+/*****************************
+*MEDIA QUERIES FOR RESPONSIVE*
+*****************************/
+
+@media only screen and (max-width: 500px) {
+
+    .navbar-default {
+      margin-bottom: 0px;
+    }
+
+}
+
+
+/*****************************
+**** SET NAVBAR COLLAPSE *****
+*****************************/
+
+@media (max-width: 1057px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+    /* since 3.1.0 */
+    
+    .navbar-collapse.collapse.in { 
+        display: block!important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+
+  .navbar-brand {
+    padding: 15px 0px 15px 0px;
   }
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #ffa500;
+}
+
+@media only screen and (max-width: 1277px) {
+
+  .navbar-default .navbar-nav > li > a {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 1.02em;
   }
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #ffa500;
-    background-color: #2d2a28;
+
+}
+
+
+@media only screen and (max-width: 1108px) {
+
+  .navbar-default .navbar-nav > li > a {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: .95em;
   }
-}*/
+
+}
+
+@media only screen and (max-width: 1125px) {
+
+  .navbar-default .navbar-nav > li > a {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: .90em;
+  }
+
+}
+
+/* Fix Hero */
+@media only screen and (max-width: 935px) {
+
+  .hero-message h1 {
+    font-size: 6em;
+    color:#F2A413;
+  }
+
+  .hero-message h3 {
+    font-size: 3em;
+    color: white;
+  }
+}
+
+@media only screen and (max-width: 815px) {
+
+  .hero-message h1 {
+    font-size: 5.5em;
+    color:#F2A413;
+  }
+
+  .hero-message h3 {
+    font-size: 2.1em;
+    color: white;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+
+  .hero-message h1 {
+    font-size: 5.25em;
+  }
+
+  .hero-message h3 {
+    font-size: 2.25em;
+  }
+}
+
+@media only screen and (max-width: 675px) {
+
+  .hero-message h1 {
+    font-size: 4em;
+  }
+
+  .hero-message h3 {
+    font-size: 2.25em;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+
+  .hero-message h1 {
+    font-size: 3.75em;
+  }
+
+  .hero-message h3 {
+    font-size: 2.05em;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+
+  .hero-message {
+    margin-left:50px;
+  }
+
+  .hero-message h1 {
+    font-size: 3.75em;
+  }
+
+  .hero-message h3 {
+    font-size: 2.05em;
+  }
+}
+
+@media only screen and (max-width: 465px) {
+
+  .hero-message {
+    margin-left:40px;
+  }
+
+  .hero-message h1 {
+    font-size: 3.75em;
+  }
+
+  .hero-message h3 {
+    font-size: 2.05em;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+
+  .hero-message {
+    margin-left:15px;
+  }
+
+  .hero-message h1 {
+    font-size: 3.75em;
+  }
+
+  .hero-message h3 {
+    font-size: 2.05em;
+  }
+}
+
+@media only screen and (max-width: 408px) {
+
+  .hero-message {
+    margin-left:5px;
+  }
+
+  .hero-message h1 {
+    font-size: 3.5em;
+  }
+
+  .hero-message h3 {
+    font-size: 1.9em;
+    text-align:left;
+  }
+}
+
+@media only screen and (max-width: 348px) {
+
+  .hero-message {
+    margin-left:-10px;
+  }
+
+  .hero-message h1 {
+    font-size: 3.5em;
+  }
+
+  .hero-message h3 {
+    font-size: 1.9em;
+    text-align:left;
+  }
+}
+
+@media only screen and (max-width: 324px) {
+
+  .hero-message {
+    margin-left:-25px;
+  }
+
+  .hero-message h1 {
+    font-size: 3.5em;
+  }
+
+  .hero-message h3 {
+    font-size: 1.9em;
+    text-align:left;
+  }
+}
