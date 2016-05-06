@@ -218,6 +218,10 @@ h5 {
   color: white;
 }
 
+.pr {
+	white-space: nowrap;
+}
+
 /*****************************
 ********* SECTION 2 **********
 *****************************/
@@ -314,7 +318,7 @@ h5 {
 *****************************/
 
 #footer {
-  height: 300px;
+  height: auto;
 }
 
 .contact-info {
@@ -326,7 +330,7 @@ h5 {
 }
 
 #fb-button {
-  float:left;
+  float:right;
 }
 
 
