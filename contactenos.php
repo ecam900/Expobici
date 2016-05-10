@@ -63,7 +63,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 
 		<link rel="stylesheet" type="text/css" href="master.css">
     <link rel="stylesheet" type="text/css" href="other-pages.css">
-		<title> Expobici </title>
+		<title> Contactenos </title>
 	</head>
 	<body>
 		<header>
@@ -104,18 +104,17 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
         </nav>
 		</header>
     <section>
-      <div class="bg pic8 img-responsive container-fluid">
+	
+	<div class="bg pic8 img-responsive container-fluid">
         <div class="hero-message text-center col-xs-10 col-xs-offset-1">
 
           <!-- NAV BAR TITLE HERE ************************************ -->
           <h1>CONTÁCTENOS<span style="color:white"></span></h1>
-          
-        </div>
-        
-        <div class="container">
+		  
+		          <div class="container">
   		<div class="row">
   			<div class="col-md-6 col-md-offset-3">
-  				<h1 class="page-header text-center">Envianos un mensaje</h1>
+  				<h2 class="page-header text-center">Envianos un mensaje</h2>
 				<form class="form-horizontal" role="form" method="post" action="contactenos.php">
 					<div class="form-group">
 						<label for="name" class="col-sm-2 control-label">Nombre</label>
@@ -139,7 +138,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 						</div>
 					</div>
 					<div class="form-group">
-						<label for="human" class="col-sm-2 control-label">¿Cuanto es 2 + 3= ?</label>
+						<label for="human" class="col-sm-2 control-label"> 2 + 3 = ? </label>
 						<div class="col-sm-10">
 							<input type="text" class="form-control" id="human" name="human" placeholder="Su respuesta">
 							<?php echo "<p class='text-danger'>$errHuman</p>";?>
@@ -158,9 +157,10 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 				</form> 
 			</div>
 		</div>
-	</div>   
-
-      </div>
+				</div> 
+		</div>
+		
+	</div>
    </section>
  
     <!-- **************************************************
@@ -186,27 +186,36 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
             <div class="row">
               <div class="col-xs-6">
                 <h4 style="padding-bottom:10px"> Contacto </h4>
-                <h5 style="white-space:nowrap">Toño Muñiz </h5>
-                <div class="row">
-                  <span style="white-space:nowrap">
-                    <a href="callto:+17875275252"><i class="contact-icon fa fa-mobile" aria-hidden="true"></i> 787-527-5252</a>
-                  </span>
-                  <br>
-                  <span style="white-space:nowrap">
-                   <a href="mailto:tono@expobicipr.com"><i class="contact-icon-mail fa fa-envelope" aria-hidden="true"></i> tono@expobicipr.com</a>
-                  </span>
-                </div>
                 <h5 style="white-space:nowrap"> José Alonso</h5>
                 <div class="row">
                   <span style="white-space:nowrap">
                     <a href="callto:+17873781596"><i class="contact-icon fa fa-mobile" aria-hidden="true"></i> 787-378-1596</a>
                   </span>
                   <br>
-                  <span style="white-space:nowrap"> 
+                  <span style="white-space:nowrap">
                     <a href="mailto:jose@expobicipr.com"><i class="contact-icon-mail fa fa-envelope" aria-hidden="true"></i> jose@expobicipr.com</a>
                   </span>
                 </div>
+                <h5 style="white-space:nowrap">Toño Muñiz </h5>
+                <div class="row">
+                  <span style="white-space:nowrap">
+                    <a href="callto:+17875275252"><i class="contact-icon fa fa-mobile" aria-hidden="true"></i> 787-527-5252</a>
+                  </span>
+                  <br>
+                  <span style="white-space:nowrap"> 
+                   <a href="mailto:tono@expobicipr.com"><i class="contact-icon-mail fa fa-envelope" aria-hidden="true"></i> tono@expobicipr.com</a>
+                  </span>
+                </div>
               </div>
+              <!-- FACEBOOK INFO INSIDE CONTACT BOX -->
+              <div class="facebook col-xs-12 col-sm-6">
+                <h4>¡Danos un 'like' en Facebook!</h4>
+                <div class='fb-logo'>
+                  <a href="https://www.facebook.com/ExpoBicipr"><img id="fb-button" class="img-responsive" src="images/facebook.svg"></img></a>
+                </div>  
+              </div>
+            </div> <!-- Contact Row End -->
+          </div>
               <!-- FACEBOOK INFO INSIDE CONTACT BOX -->
               <div class="facebook col-xs-12 col-sm-6">
                 <h4>¡Danos un 'like' en Facebook!</h4>
