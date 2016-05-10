@@ -15,29 +15,21 @@
 *****************************/
 .bg {
 
-  min-height: 700px;
+  min-height: 800px;
   width:100%;
 /*  -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 825px;
-  box-shadow: 0px 2px 2px #fafafa;*/
+  height: 825px;*/
+  box-shadow: 0px 2px 2px #fafafa;
 }
 
 .bulletpoint {
 	font-size:20px;
-	color: red;
+	color: #ffa500;
+  padding-right:8px;
 }
 
-.child {
-	position: absolute;
-    top: 50%;
-    left: 50%;
-    padding: 0;
-    transform: translate(-50%, -50%);
-    padding:1.2em;
-    font-size:.5em;
-    }
 
 /*****************************
 **** ALL BACKGROUND PICS *****
@@ -80,11 +72,12 @@
 	margin-top: 40px;
 	height: auto;
   border-radius:3%;
+  max-height: 800px;
 }
 
-.hero-message li {
+.hero-message p {
   font-family: 'Ubuntu', sans-serif;
-  font-size: 1.5em;
+  font-size: .95em;
 }
 
 
