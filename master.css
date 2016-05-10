@@ -619,9 +619,9 @@ h4 {
 
 @media only screen and (max-width: 520px) {
 
-  .hero-message {
+/*  .hero-message {
     margin-left:50px;
-  }
+  }*/
 
   .hero-message h1 {
     font-size: 4em;

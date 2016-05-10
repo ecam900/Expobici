@@ -30,6 +30,10 @@
   padding-right:8px;
 }
 
+.hero-message h1 {
+  padding-top: 10px;
+}
+
 
 /*****************************
 **** ALL BACKGROUND PICS *****
@@ -77,10 +81,20 @@
 
 .hero-message p {
   font-family: 'Ubuntu', sans-serif;
-  font-size: .95em;
+  font-size: 1.5em;
 }
 
+#inversion {
+  font-size: 4em;
+}
 
+.thumbnail {margin-bottom:6px;}
+
+.carousel-control.left,.carousel-control.right{
+  background-image:none;
+  margin-top:10%;
+  width:5%;
+}
 
 /*****************************
 ******* THIRD SECTION ********
@@ -88,4 +102,23 @@
 
 #third-section {
   margin-top:10px;
+}
+
+
+/*****************************
+******* RESPONSIVE ***********
+*****************************/
+
+@media only screen and (max-width: 765px) {
+
+  .hero-message p {
+    font-size: 1.40em;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+
+  .hero-message p {
+    font-size: 1.25em;
+  }
 }

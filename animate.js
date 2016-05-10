@@ -10,4 +10,8 @@ $(document).ready(function(){
    			 $("#sec3").removeClass("transparent_box");
    			 $("#sec3").addClass("animated fadeInUp");
    },1700);
+
+
+
 });
+
