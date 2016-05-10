@@ -1,0 +1,83 @@
+
+
+/*****************************
+******* NAVBAR ***************
+*****************************/
+.navbar  {
+	margin-bottom: 0px;
+	border-radius: 0px;
+}
+
+
+
+/*****************************
+*** BACKGROUND & MAIN TEXT ***
+*****************************/
+.bg {
+
+  min-height: 700px;
+  width:100%;
+/*  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 825px;
+  box-shadow: 0px 2px 2px #fafafa;*/
+}
+
+/*****************************
+**** ALL BACKGROUND PICS *****
+*****************************/
+
+ .pic1 {
+  background: url("images/simplebike.jpg") no-repeat;
+ }
+
+ .pic2 {
+  background: url("images/palmeras.jpg") no-repeat center center;
+ }
+
+ .pic3 {
+  background: url("images/bike-and-guy.jpg") no-repeat center center;
+ }
+
+ .pic4 {
+  background: url("images/downhillgreenbw.jpg") no-repeat center center;
+ }
+
+ .pic5 {
+  background: url("images/brickwall2.jpg") no-repeat center center;
+ }
+
+ .pic6 {
+  background: url("images/backchain.jpg") no-repeat center center;
+}
+
+ .pic7 {
+  background: url("images/mountainbike2.jpg") no-repeat center center;
+}
+
+ .pic8 {
+  background: url("images/bwblur.jpg") no-repeat center center;
+}
+
+.hero-message {
+	background: rgba(0,0,0,0.5);
+	margin-top: 40px;
+	height: auto;
+  border-radius:3%;
+}
+
+.hero-message li {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.5em;
+}
+
+
+
+/*****************************
+******* THIRD SECTION ********
+*****************************/
+
+#third-section {
+  margin-top:10px;
+}
