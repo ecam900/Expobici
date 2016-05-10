@@ -96,6 +96,14 @@
   width:5%;
 }
 
+.ausp {
+  text-align: left;
+}
+
+.ausp p {
+  font-size: 1.15em;
+}
+
 /*****************************
 ******* THIRD SECTION ********
 *****************************/
@@ -109,22 +117,37 @@
 ******* RESPONSIVE ***********
 *****************************/
 
+@media only screen and (max-width: 800px) {
+  .ausp p {
+    font-size: 1.05em;
+  }
+
+}
+
+
 @media only screen and (max-width: 765px) {
 
   .hero-message p {
     font-size: 1.40em;
   }
+
+  .ausp p {
+    font-size: 1.05em;
+  }
+
 }
+
+
 
 @media only screen and (max-width: 540px) {
 
   .hero-message p {
     font-size: 1.25em;
   }
-}
 
-
-@media only screen and (max-width: 540px) {
+  .ausp p {
+    font-size: 1.00em;
+  }
 
   .hero-message {
     margin-left:0px;
@@ -133,6 +156,18 @@
   .hero-message h1 {
     font-size: 3em;
   }
+
+
+}
+
+
+@media only screen and (max-width: 500px) {
+
+
+  .ausp h2 {
+    font-size: 1.25em;
+  }
+
 }
 
 @media only screen and (max-width: 465px) {
@@ -141,7 +176,26 @@
     font-size: 2.5em;
   }
 
+  .ausp h2 {
+    font-size: 1.25em;
+  }
+
   .hero-message p {
     font-size: 1em;
+  }
+  .ausp p {
+    font-size: 1em;
+  }
+
+}
+
+@media only screen and (max-width: 465px) {
+
+  .asup h2 {
+    font-size: 1.20em;
+  }
+
+  .ausp p {
+    font-size: .75em;
   }
 }
