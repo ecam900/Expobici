@@ -5,7 +5,7 @@
 		$message = $_POST['message'];
 		$human = intval($_POST['human']);
 		$from = 'ExpoBiciPR Página Web'; 
-		$to = 'rpva47@gmail.com'; 
+		$to = 'jose@expobicipr.com'; 
 		$subject = 'Mensaje de Contacto';
 		
 		$body ="From: $name\n E-Mail: $email\n Message:\n $message";
@@ -43,7 +43,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="es">
 
 	<head>
 
@@ -97,7 +97,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
                 <li class="navlink"><a href="auspicios.html">AUSPICIOS</a></li>
                 <li class="navlink"><a href="publicidad.html">PUBLICIDAD</a></li>
                 <li class="navlink"><a href="contactenos.php">CONTÁCTENOS</a></li>
-                <li class="navlink"><a href="home.html">ENGLISH</a></li>
+                <li class="navlink"><a href="/../en">ENGLISH</a></li>
               </ul>
             </div><!-- /.navbar-collapse -->
           </div><!-- /.container-fluid -->
@@ -146,7 +146,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 					</div>
 					<div class="form-group">
 						<div class="col-sm-10 col-sm-offset-2">
-							<input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
+							<input id="submit" name="submit" type="submit" value="Enviar" class="btn btn-primary">
 						</div>
 					</div>
 					<div class="form-group">

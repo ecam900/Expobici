@@ -1,0 +1,768 @@
+
+
+body {
+	background-color: #2d2a28;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+a:link {
+	text-decoration: none;
+}
+
+.logo {
+	margin-top: 25px;
+	padding-left: 10px;
+	padding-right: 0px;
+	width: auto;
+	max-height: 32px;
+}
+
+.container-fluid {
+  background-color: #2d2a28;
+}
+
+h4 {
+  color:#ffa500;
+}
+
+
+
+
+/* Navbar stuff ------------------------ */
+.navbar-default {
+  background-color: #2d2a28;
+  border-color: #2d2a28;
+}
+.navbar-default .navbar-brand {
+  color: #ffa500;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #ffa500;
+}
+.navbar-default .navbar-text {
+  color: #ffa500;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ffa500;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #ffa500;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #ffa500;
+  background-color: #2d2a28;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #ffa500;
+  background-color: #2d2a28;
+}
+.navbar-default .navbar-toggle {
+  border-color: #2d2a28;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #2d2a28;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffa500;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ffa500;
+}
+.navbar-default .navbar-link {
+  color: #ffa500;
+}
+.navbar-default .navbar-link:hover {
+  color: #ffa500;
+}
+
+.navbar {
+	background-color: #2d2a28;
+}
+
+#navbar .active {
+	background-color: #2d2a28;
+}
+
+.navbar-default {
+    background-color: #2d2a28;
+    border-color: #2d2a28;
+}
+.navbar-default .navbar-nav > li > a {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 1.25em;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background-color: #2d2a28;
+    color: #ffa500;
+}
+
+.navbar-header {
+  background-color: #2d2a28;
+  color: #ffa500;
+  vertical-align: middle;
+}
+
+.branding-stuff {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 20px;
+  ;
+}
+.navbar-brand {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 20px;
+  padding-right:-10px;
+  float:left;
+}
+
+.navbar-brand a {
+  margin-right: -5px;
+  float:left;
+}
+
+
+.brand-name {
+  padding-right: 100px;
+  width: auto;
+  line-height: 15px;
+  position: relative;
+}
+
+.brand-name a {
+  font-weight: bold;
+  font-size: .62em;
+  color: white;
+  position: absolute;
+ }
+
+ .clr {
+  clear:both;
+ }
+
+/*****************************
+***** HERO (MAIN IMAGE) *****
+*****************************/
+
+.hero {
+  background: url("../images/hero.png") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 400px;
+  box-shadow: 0px 3px 8px #2a2a2a;
+}
+
+.hero-message {
+  font-color: black;
+  margin-top: 100px;
+  font-family: 'Stardos Stencil', sans-serif;
+  font-weight: bold;
+}
+
+.hero-message h1 {
+  font-size: 3em;
+  font-color: black;
+}
+
+
+/*****************************
+***** HERO (MAIN IMAGE) *****
+*****************************/
+
+.hero {
+  background: url("../images/hero.png") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 400px;
+  box-shadow: 0px 3px 8px #2a2a2a;
+}
+
+.hero-message {
+  margin-top: 0px;
+  font-family: 'Stardos Stencil', sans-serif;
+  color: white;
+  background-color:rgba(0,0,0,0.0);
+}
+
+.hero-message h1 {
+  font-size: 7em;
+  color:#F2A413;
+}
+
+.hero-message h3 {
+  font-size: 3em;
+  color: white;
+}
+
+/*****************************
+********* SECTION 2 **********
+*****************************/
+
+#second-section {
+  padding-bottom: 40px;
+}
+
+
+#el-evento {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size:3em;
+  margin-top: 38px;
+  margin-bottom: 40px;
+}
+
+
+.sectwo {
+  padding-left:0px;
+  padding-right:0px;
+}
+
+.secbox {
+
+  min-height: 330px;
+}
+
+
+
+.secbox p {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  text-align: left;
+  color: white;
+  font-size: 1.40em;
+  margin-left:180px;
+
+}
+
+.secbox h4 {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.sectext {
+  padding-left: 2px;
+  position: right;
+  margin-right: 10px;
+  margin-left: 20px;
+
+}
+
+.transparent_box {
+  display:none;  
+}
+
+
+.rowItem {
+  margin-right:1px;
+}
+
+.circle-border {
+  font-size: 70px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #A1A1A1;
+  color: #01CCB9;
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+  padding-top: 20px;
+  margin-left: 20px;
+  margin-right: 40px;
+}
+
+.box2pic {
+  max-width: 80%;
+  padding-left: 75px;
+}
+
+.left-date {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size:2em;
+  text-align: left;
+  padding-left: 200px;
+  color:white;
+}
+
+
+/*****************************
+********* SECTION 3 **********
+*****************************/
+
+#third-section {
+  height: 350px;
+}
+
+#google-map {
+  padding-left: 45px;
+}
+
+.contact-info h4 {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 2.10em;
+  color: #ffa500;
+}
+
+.contact-info {
+  padding-top: 30px;
+}
+
+.contact-info h5 {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #ffa500;
+  padding-left: 5px;
+}
+
+.contact-info a {
+  font-family: 'Ubuntu';
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.contact-icon {
+  color: #01CCB9;
+  font-size: 2em;
+  padding: 0px 10px 5px 20px;
+}
+
+.contact-icon-mail {
+  color: #01CCB9;
+  font-size: 1.75em;
+  padding: 0px 10px 5px 20px;
+}
+
+.facebook {
+  margin-top: 0px;
+}
+
+.fb-logo {
+  margin:auto;
+}
+
+#fb-button {
+ width:100px;
+}
+
+.overlay {
+   background:transparent; 
+   position:relative; 
+   width:100%;
+   height:374.44px; /* your iframe height */
+   top:374.44px;  /* your iframe height */
+   margin-top:-374.44px;  /* your iframe height */
+}
+
+
+/*****************************
+********* FOOTER *************
+*****************************/
+
+#footer {
+  height: 75px;
+}
+
+
+#contacto {
+  font-size:2em;
+}
+
+
+
+#follow-us h4 {
+  width:150px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 2em;
+  margin-left: 200px;
+}
+
+
+
+/*****************************
+*MEDIA QUERIES FOR RESPONSIVE*
+*****************************/
+
+@media only screen and (max-width: 500px) {
+
+    .navbar-default {
+      margin-bottom: 0px;
+    }
+
+}
+
+
+/*****************************
+**** SET NAVBAR COLLAPSE *****
+*****************************/
+
+@media (max-width: 1057px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+    /* since 3.1.0 */
+    
+    .navbar-collapse.collapse.in { 
+        display: block!important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+
+  .navbar-brand {
+    padding: 15px 0px 15px 0px;
+  }
+}
+
+@media only screen and (max-width: 1277px) {
+
+  .navbar-default .navbar-nav > li > a {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 1.02em;
+  }
+
+}
+
+
+@media only screen and (max-width: 1108px) {
+
+  .navbar-default .navbar-nav > li > a {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: .95em;
+  }
+
+}
+
+@media only screen and (max-width: 1125px) {
+
+  .navbar-default .navbar-nav > li > a {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: .90em;
+  }
+
+  .contact-info a {
+    font-size: 1.40em;
+  }
+
+}
+
+@media only screen and (max-width: 1056px) {
+  .contact-info a {
+    font-size: 1.25em;
+  }
+
+}
+
+@media only screen and (max-width: 975px) {
+  .contact-info a {
+    font-size: 1.10em;
+  }
+
+  .facebook h4 {
+    font-size: 1.90em;
+  }
+  #fb-button {
+    width: 75px;
+  }
+
+  .hero-message h1 {
+    margin-top: 5px;
+  }
+
+/* Fix Hero */
+@media only screen and (max-width: 935px) {
+
+  .hero-message h1 {
+    font-size: 6.2em;
+    color:#F2A413;
+  }
+
+  .hero-message h3 {
+    font-size: 3em;
+    color: white;
+  }
+
+  #fb-button {
+    margin:auto;
+  }
+}
+
+@media only screen and (max-width: 835px) {
+ 
+  .hero-message h1 {
+    font-size: 5.5em;
+    color:#F2A413;
+    margin:auto;
+  }
+
+  .hero-message h3 {
+    font-size: 2.1em;
+    color: white;
+  }
+
+}
+
+
+@media only screen and (max-width: 815px) {
+
+  .hero-message h1 {
+    margin-top: 25px;
+  }
+
+  .hero-message h3 {
+    font-size: 2.1em;
+    color: white;
+  }
+}
+
+
+@media only screen and (max-width: 767px) {
+
+  #google-map {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  #fb-button {
+    float:left;
+  }
+
+}
+
+@media only screen and (max-width: 700px) {
+
+  .hero-message h1 {
+    font-size: 5.25em;
+  }
+
+  .hero-message h3 {
+    font-size: 2.25em;
+  }
+}
+
+@media only screen and (max-width: 675px) {
+
+  .hero-message h1 {
+    font-size: 5em;
+  }
+
+  .hero-message h3 {
+    font-size: 2.25em;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+
+  .hero-message h1 {
+    font-size: 5em;
+  }
+
+  .hero-message h3 {
+    font-size: 2.05em;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+
+/*  .hero-message {
+    margin-left:50px;
+  }*/
+
+  .hero-message h1 {
+    font-size: 4em;
+  }
+
+  .hero-message h3 {
+    font-size: 2.05em;
+  }
+}
+
+@media only screen and (max-width: 465px) {
+
+  .hero-message {
+    margin-left:40px;
+  }
+
+  .hero-message h1 {
+    font-size: 3.75em;
+  }
+
+  .hero-message h3 {
+    font-size: 2.05em;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+
+  .hero-message {
+    margin-left:15px;
+  }
+
+  .hero-message h1 {
+    font-size: 3.75em;
+  }
+
+  .hero-message h3 {
+    font-size: 2.05em;
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+
+  .hero-message {
+    margin-left:5px;
+  }
+
+  .hero-message h1 {
+    font-size: 3.5em;
+  }
+
+  .hero-message h3 {
+    font-size: 1.9em;
+    text-align:left;
+  }
+}
+
+@media only screen and (max-width: 348px) {
+
+  .hero-message {
+    margin-left:-10px;
+  }
+
+  .hero-message h1 {
+    font-size: 3.5em;
+  }
+
+  .hero-message h3 {
+    font-size: 1.9em;
+    text-align:left;
+  }
+}
+
+@media only screen and (max-width: 324px) {
+
+  .hero-message {
+    margin-left:-25px;
+  }
+
+  .hero-message h1 {
+    font-size: 3.5em;
+  }
+
+  .hero-message h3 {
+    font-size: 1.9em;
+    text-align:left;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+
+  .secbox p {
+    font-size: 1.25em;
+    text-align: left;
+  }
+
+}
+
+@media only screen and (max-width: 484px) {
+ 
+  #el-evento {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size:3em;
+    margin-top: 38px;
+  }
+
+
+.secbox p {
+  margin-top: 10px;
+  margin-left:25px;
+}
+
+  .rowItem {
+    display:inline-block;
+    width:100%;
+    position:center;
+  }
+
+
+  .sectext {
+    display: inline-block;
+  }
+
+  .circle-border {
+    margin: auto;
+  }
+
+
+}
+
+@media only screen and (max-width: 482px) {
+
+  .left-date {
+    padding-top:15px;
+    padding-left: 20px;
+    margin:auto;
+  }
+
+  .circle-border {
+    margin-bottom: 10px;
+  }
+}
