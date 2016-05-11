@@ -32,8 +32,8 @@
           <h1>EXHIBITION <span style="color:white">SPACE</span></h1>
           <div style="text-align:left">
                 <p> <span class="fa fa-bicycle bulletpoint"></span>$8.00 per square foot of  exhibition, minimum of a 100 squared   feet  (10&rsquo; x 10&rsquo;) for exhibition of products and/or services.  </p>
-            <p> <span class="fa fa-bicycle bulletpoint"></span>Exhibition Mounting:<br>14 de Octubre de 2016<br>Horario:<br>10:00 am hasta 9:00 pm</p>
-            <p> <span class="fa fa-bicycle bulletpoint"></span>Exhibition:<br>15/16 de Octubre de 2016<br>Horario:<br>Sábado - 9:00 am hasta 7:00 pm<br>Domingo - 9:00 am hasta 6:00 pm</p>
+            <p> <span class="fa fa-bicycle bulletpoint"></span>Exhibition Load In:<br> October 14 2016<br>Setup:<br>10:00 am to 9:00 pm</p>
+            <p> <span class="fa fa-bicycle bulletpoint"></span>Exhibition:<br>October 15 / 16 2016<br>Duration:<br>Saturday - 9:00 am to 7:00 pm<br>Sunday - 9:00 am to 6:00 pm</p>
               <h1 id="inversion">Investment $800.00</h1>
             </div>
          </div>
