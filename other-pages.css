@@ -112,6 +112,36 @@
   margin-top:10px;
 }
 
+#slider {
+
+	list-style:none;
+	padding:0px
+}
+
+.slider-container { 
+
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px; 
+	max-width:350px;
+
+}
+
+#slider img { 
+
+	width:auto; 
+	height:125px; 
+	margin:0px; 
+	display:inline-block;
+}
+
+#slider li {
+	
+	max-width:auto;
+}
+
+
+
 
 /*****************************
 ******* RESPONSIVE ***********

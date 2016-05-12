@@ -52,4 +52,15 @@
         </div>
       </div>
     </section>
+		<div class="slider-container"> 
+
+		<ul id="slider">
+			<li><a href="http://qualityav.com"><img src="../images/qav.png" class="img img-responsive" alt=""></a></li>
+			<li><a href="http://gtama.com"><img src="../images/gtama.png" class="img img-responsive" alt=""></a></li>
+			<li><a href="http://bikes4youpr.com"><img src="../images/b4y.png" class="img img-responsive" alt=""></a></li>
+			<li><a href="http://kasalta.com"><img src="../images/kasalta.png" class="img-responsive" alt=""></a></li>
+			<li><a href="http://yolorestaurantbar.com"><img src="../images/yolo.png" class="img-responsive" alt=""></a></li>
+		</ul>
+	</div><!-- /slider -->
+	
 </section> 
