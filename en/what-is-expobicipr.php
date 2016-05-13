@@ -2,46 +2,48 @@
 
 <html lang="en">
 
-	<head>
+  <head>
 
-			<!-- GOOGLE FONTS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
-		<link href='https://fonts.googleapis.com/css?family=Ubuntu:400,700,500' rel='stylesheet' type='text/css'>
+      <!-- GOOGLE FONTS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,700,500' rel='stylesheet' type='text/css'>
 
     <link href='https://fonts.googleapis.com/css?family=Stardos+Stencil:700' rel='stylesheet' type='text/css'>
-			<!-- BOOTSTRAP >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+      <!-- BOOTSTRAP >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
-  	<meta charset="utf-8">
+    <meta charset="utf-8">
 
-				<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
 
-		<link rel="stylesheet" type="text/css" href="master.css">
+    <link rel="stylesheet" type="text/css" href="master.css">
     <link rel="stylesheet" type="text/css" href="other-pages.css">
-		<title> Expo </title>
-	</head>
-	<body>
-		<?php include 'header.php';?>
+    <title> What is ExpoBiciPR? </title>
+  </head>
+  <body>
+    <?php include 'header.php';?>
     <section>
-      <div class="bg pic2 img-responsive container-fluid">
+      <div class="bg pic1 img-responsive container-fluid">
         <div class="hero-message text-center col-xs-12">
 
           <!-- NAV BAR TITLE HERE ************************************ -->
-          <h1>EXPO<span style="color:white">BICIPR</span></h1>
+          <h1>WHAT IS EXPO<span style="color:white">BICI?</span></h1>
+          
           <div style="text-align:left">
-            <p> <span class="fa fa-bicycle bulletpoint"></span>We are pleased to inform you that we will celebrate the first ExpoBiciPR convention, on October, 15/16<br>
-              2016, in the Puerto Rico Convention Center in San Juan PR. We invite you to be part of this great show<br>
-              and the inclusion in the pioneer group of this great event, which we hope will become the busiest expo<br>
-              dedicated to cyclists in Puerto Rico. ExpoBiciPR will be the largest business platform to present the<br>
-              latest technology, accessories, equipment, clothing and everything related to the sport of cycling in<br>
-            Puerto Rico.</p>
-
-            <p> <span class="fa fa-bicycle bulletpoint"></span>If your company is a supplier of bicycles, accessories, sportswear and/or sports nutrition products and<br>
-              wants to meet with the main buyers of cycling this event it is for you. If you want to get to an excellent<br>
-              and select group of consumers, then this is your OPPORTUNITY to publicize your services and products<br>
-            in the best exhibition platform.</p>
+            <p> <span class="fa fa-bicycle bulletpoint"></span>A unique environment designed and created for the world of cycling: exhibitions, expositions,
+presentations, lectures, speeches, music; all aimed at contributing to the development and
+growth of those who live and enjoy the sport of cycling.</p>
+            <p> <span class="fa fa-bicycle bulletpoint"></span>This will be the annual Convention for all persons in the sports related industry and what the
+sport of cycling deserves.</p>
+            <p> <span class="fa fa-bicycle bulletpoint"></span>There will be exhibits of bikes, accessories, equipment, sportswear, sports nutrition products
+and all the latest technology available in the world of the sport. This will be presented in a
+determined and assigned area where exhibitors presented their companies and / or services.
+We will also offer lectures related to improving the sport of cycling in Puerto Rico.</p>
+<p> <span class="fa fa-bicycle bulletpoint"></span>BOOK TODAY TO OBTAIN A DISCOUNT IN THE OFFICIAL HOTEL OF EXPOBICIPR !
+TO BOOK IN THE OFFICIAL HOTEL OF THIS EVENT PLEASE CLICK THE FOLLOWING LINK: <a href= "https://www.starwoodmeeting.com/Book/ExpoBici2016" alt= "Official Hotel of EXPOBICIPR"> Official Hotel of EXPOBICIPR</a>
+		</p>
           </div>
         </div>
 

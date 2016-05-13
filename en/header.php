@@ -19,7 +19,7 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id=".navbar-collapse">
               <ul class="nav navbar-nav navbar-left">
-                <li class="navlink"><a href="what-is-expobici.php">WHAT IS EXPOBICI?</a></li>
+                <li class="navlink"><a href="what-is-expobicipr.php">WHAT IS EXPOBICIPR?</a></li>
                 <li class="navlink"><a href="expo.php">EXPO</a></li>
                 <li class="navlink"><a href="opportunities.php">OPPORTUNITIES</a></li>
                 <li class="navlink"><a href="exhibitor.php">EXHIBITOR</a></li>

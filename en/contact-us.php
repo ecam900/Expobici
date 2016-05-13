@@ -125,15 +125,11 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 	</div>
    </section>    
    
-   <!-- **************************************************
+    <!-- **************************************************
     ******************** FOOTER ***************************
     *****************************************************-->
-    
-    <?php include 'footer.php';?> 
 
-
-
-
+    <?php include 'footer.php';?>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
@@ -145,10 +141,19 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
       }
   });
  </script>
-
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="animate.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+		<script src="http://code.jquery.com/jquery-latest.js"></script>
+		<script src="jquery.bxSlider.js"></script>
+		<script type="text/javascript">
+  		$(document).ready(function(){
+     		$('#slider').bxSlider({
+    		ticker: true,
+    		tickerSpeed: 5000,
+			tickerHover: true
+  		});
+  		});
+		</script>
+		
 	</body>
 </html>
