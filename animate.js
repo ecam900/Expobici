@@ -12,6 +12,12 @@ $(document).ready(function(){
    },1700);
 
 
+   $('.logoSlider').slick({
+     infinite: true,
+     slidesToShow: 3,
+     slidesToScroll: 3
+   });
+
 
 });
 

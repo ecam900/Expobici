@@ -399,33 +399,7 @@ h4 {
   margin-left: 200px;
 }
 
-#slider {
 
-	list-style:none;
-	padding:0px
-}
-
-.slider-container { 
-
-	-webkit-border-radius: 2px;
-	-moz-border-radius: 2px;
-	border-radius: 2px; 
-	max-width:350px;
-
-}
-
-#slider img { 
-
-	max-width:300px; 
-	height:150px; 
-	margin:0px; 
-	display:inline-block;
-}
-
-#slider li {
-	
-	
-}
 
 .videoWrapper {
   position: relative;
