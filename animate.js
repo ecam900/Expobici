@@ -13,9 +13,13 @@ $(document).ready(function(){
 
 
    $('.logoSlider').slick({
+     dots: false,
      infinite: true,
-     slidesToShow: 3,
-     slidesToScroll: 3
+     speed: 1200,
+     slidesToShow: 4,
+     slidesToScroll: 1,
+     autoplay: true,
+     autoplaySpeed: 2000
    });
 
 
