@@ -23,7 +23,7 @@
 
     <link rel="stylesheet" type="text/css" href="master.css">
 	<link rel="stylesheet" type="text/css" href="other-pages.css">
-		<title> OPPORTUNITIES </title>
+		<title> Opportunities </title>
 	</head>
 	<body>
 		<?php include 'header.php';?>
@@ -32,7 +32,7 @@
         <div class="hero-message text-center col-xs-12">
 
           <!-- NAV BAR TITLE HERE ************************************ -->
-          <h1>Opportunities  <span style="color:white"></span></h1>
+          <h1>OPPORTUNITIES  <span style="color:white"></span></h1>
           <div style="text-align:left">
               <p> <span class="fa fa-bicycle bulletpoint"></span>Launch and presentation of new  products.</p>
               <p> <span class="fa fa-bicycle bulletpoint"></span>Secure relationships with customers and exchange experiences.</p>
