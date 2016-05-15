@@ -20,7 +20,7 @@
           <div class="contact-info col-xs-12 col-sm-6">
             <div class="row">
               <div class="col-xs-6">
-                <h4 style="padding-bottom:10px"> Contacts </h4>
+                <h4 style="padding-bottom:10px"> Contacto </h4>
                 <h5 style="white-space:nowrap"> José Alonso</h5>
                 <div class="row">
                   <span style="white-space:nowrap">
@@ -44,9 +44,9 @@
               </div>
               <!-- FACEBOOK INFO INSIDE CONTACT BOX -->
               <div class="facebook col-xs-12 col-sm-6">
-                <h4>'Like' us on Facebook!</h4>
+                <h4>¡Danos un 'like' en Facebook!</h4>
                 <div class='fb-logo'>
-                  <a href="https://www.facebook.com/ExpoBicipr"><img id="fb-button" class="img-responsive" src="../images/facebook.svg"></img></a>
+                  <a href="https://www.facebook.com/ExpoBicipr"><img id="fb-button" class="img-responsive" src="images/facebook.svg"></img></a>
                 </div>  
               </div>
             </div> <!-- Contact Row End -->
@@ -62,14 +62,14 @@
       <section id="footer">
         <!-- slider -->
         <div class="logoSlider col-xs-10 col-xs-offset-1">
-          <div><a href="http://gtama.com"><img src="../images/gtama.png" class="img img-responsive"  alt=""></a></div>
-          <div><a href="http://qualityav.com"><img src="../images/qav.png" class="img img-responsive" alt=""></a></div>
-          <div><a href="http://lakecycling.com/"><img src="../images/lake.png" class="img img-responsive"  alt=""></a></div>
-          <div><a href="http://yolorestaurantbar.com"><img src="../images/yolo.png" class="img img-responsive" alt=""></a></div>
-          <div><a href="http://kasalta.com"><img src="../images/kasalta.png" class="img img-responsive" alt=""></a></div> 
-		  <div><a href="http://bikes4youpr.com"><img src="../images/b4y.jpg" class="img img-responsive" alt=""></a></div>
-		  <div><a href="http://trekbikes.com"><img src="../images/trek.jpg" class="img img-responsive" alt=""></a></div>
-		  <div><a href="http://alfredoruiz.org/"><img src="../images/fundacion.png" class="img img-responsive" alt=""></a></div>
+          <div><a href="http://gtama.com"><img src="images/gtama.png" class="img img-responsive"  alt=""></a></div>
+          <div><a href="http://qualityav.com"><img src="images/qav.png" class="img img-responsive" alt=""></a></div>
+          <div><a href="http://lakecycling.com/"><img src="images/lake.png" class="img img-responsive"  alt=""></a></div>
+          <div><a href="http://yolorestaurantbar.com"><img src="images/yolo.png" class="img img-responsive" alt=""></a></div>
+          <div><a href="http://kasalta.com"><img src="images/kasalta.png" class="img img-responsive" alt=""></a></div> 
+		  <div><a href="http://bikes4youpr.com"><img src="images/b4y.jpg" class="img img-responsive" alt=""></a></div>
+		  <div><a href="http://trekbikes.com"><img src="images/trek.jpg" class="img img-responsive" alt=""></a></div>
+		  <div><a href="http://alfredoruiz.org/"><img src="images/fundacion.png" class="img img-responsive" alt=""></a></div>
 		</div><!-- /slider -->
       </section> <!-- /footer -->
     </div><!-- /container-fluid -->

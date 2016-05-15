@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="es">
 
-	<head>
+  <head>
 
       <!-- GOOGLE FONTS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
     <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,700,500' rel='stylesheet' type='text/css'>
@@ -23,39 +23,60 @@
 
     <link rel="stylesheet" type="text/css" href="master.css">
 	<link rel="stylesheet" type="text/css" href="other-pages.css">
-		<title> Expo </title>
-	</head>
-	<body>
-		<?php include 'header.php';?>
-    <section>
-      <div class="bg pic2 img-responsive container-fluid">
+    <title> Auspicios </title>
+  </head>
+  <body>
+  
+	<?php include 'header.php';?>
+	
+    <section> 
+      <div class="bg pic6 img-responsive container-fluid">
         <div class="hero-message text-center col-xs-12">
 
           <!-- NAV BAR TITLE HERE ************************************ -->
-          <h1>EXPO<span style="color:white">BICIPR</span></h1>
-          <div style="text-align:left">
-            <p> <span class="fa fa-bicycle bulletpoint"></span>We are pleased to inform you that we will celebrate the first ExpoBiciPR convention, on October, 15/16<br>
-              2016, in the Puerto Rico Convention Center in San Juan PR. We invite you to be part of this great show<br>
-              and the inclusion in the pioneer group of this great event, which we hope will become the busiest expo<br>
-              dedicated to cyclists in Puerto Rico. ExpoBiciPR will be the largest business platform to present the<br>
-              latest technology, accessories, equipment, clothing and everything related to the sport of cycling in<br>
-            Puerto Rico.</p>
-
-            <p> <span class="fa fa-bicycle bulletpoint"></span>If your company is a supplier of bicycles, accessories, sportswear and/or sports nutrition products and<br>
-              wants to meet with the main buyers of cycling this event it is for you. If you want to get to an excellent<br>
-              and select group of consumers, then this is your OPPORTUNITY to publicize your services and products<br>
-            in the best exhibition platform.</p>
+          <div class="ausp">
+            <h1>AUSPICIOS<span style="color:white"></span></h1>
+            <div class="row">
+              <div class="col-xs-6">
+                <h2>AUSPICIADOR PLATINO</h2>
+                <p>-Su logo en TV, Prensa, nuestro Website y Redes Sociales</p>
+                <p>-Banner digital en nuestro Website 468x60.</p>
+                <p>-Mención y presencia en conferencia de prensa.</p>
+                <p>-3 spots de 30” en pantallas gigantes- área de exhibición</p>
+                <p>-400 pies cuadrados (20x20) de espacio de exhibición </p>
+                <p>-Derecho a colocar promoción en la tarima y 2 charlas.</p>
+                <p>-Derecho a colocar promoción en los predios.</p>
+                <p>-50 boletos de cortesía para promoción</p>
+              </div>
+              <div class="col-xs-6">
+                <h2>AUSPICIADOR ORO</h2>
+                <p>-Mención en todos los medios.</p>
+                <p>-Mención y presencia en conferencia de prensa.</p>
+                <p>-1 comercial de 30” en las pantallas gigantes.</p>
+                <p>-200 pies cuadrados (10x20) de espacio de exhibición.</p>
+                <p>-30 boletos de cortesía para promoción.</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12">
+                <h2>AUSPICIADOR PLATA</h2>
+                <p>-Mención en todos los medios digitales.</p>
+                <p>-Mención y presencia en conferencia de prensa.</p>
+                <p>-100 pies cuadrados (10x10) de espacio de exhibición.</p>
+                <p>-15 boletos de cortesía</p>
+              </div>
+            </div>
           </div>
+         </div>
+          
+          
         </div>
 
       </div>
-   </section>    
-   
-    <!-- **************************************************
-    ******************** FOOTER ***************************
-    *****************************************************-->
+   </section>
+ 
+	<?php include 'footer.php';?>
 
-    <?php include 'footer.php';?>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>

@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="es">
 
-	<head>
+  <head>
 
       <!-- GOOGLE FONTS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
     <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,700,500' rel='stylesheet' type='text/css'>
@@ -21,42 +21,42 @@
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 
-    <link rel="stylesheet" type="text/css" href="master.css">
+    <link rel="stylesheet" type="text/css" href="master.css"> 
 	<link rel="stylesheet" type="text/css" href="other-pages.css">
-		<title> Expo </title>
-	</head>
-	<body>
-		<?php include 'header.php';?>
+    <title> ¿Qué es ExpoBiciPR? </title>
+  </head>
+  <body>
+  
+	<?php include 'header.php';?>
+
     <section>
-      <div class="bg pic2 img-responsive container-fluid">
+      <div class="bg pic1 img-responsive container-fluid">
         <div class="hero-message text-center col-xs-12">
 
           <!-- NAV BAR TITLE HERE ************************************ -->
-          <h1>EXPO<span style="color:white">BICIPR</span></h1>
+          <h1>¿QUÉ ES EXPO<span style="color:white">BICIPR?</span></h1>
+          
           <div style="text-align:left">
-            <p> <span class="fa fa-bicycle bulletpoint"></span>We are pleased to inform you that we will celebrate the first ExpoBiciPR convention, on October, 15/16<br>
-              2016, in the Puerto Rico Convention Center in San Juan PR. We invite you to be part of this great show<br>
-              and the inclusion in the pioneer group of this great event, which we hope will become the busiest expo<br>
-              dedicated to cyclists in Puerto Rico. ExpoBiciPR will be the largest business platform to present the<br>
-              latest technology, accessories, equipment, clothing and everything related to the sport of cycling in<br>
-            Puerto Rico.</p>
-
-            <p> <span class="fa fa-bicycle bulletpoint"></span>If your company is a supplier of bicycles, accessories, sportswear and/or sports nutrition products and<br>
-              wants to meet with the main buyers of cycling this event it is for you. If you want to get to an excellent<br>
-              and select group of consumers, then this is your OPPORTUNITY to publicize your services and products<br>
-            in the best exhibition platform.</p>
+            <p> <span class="fa fa-bicycle bulletpoint"></span>Un ambiente único diseñado y creado para el mundo del ciclismo: exhibiciones, exposiciones,
+  presentaciones, charlas, ponencias, música; todo encaminado a contribuir con el desarrollo y
+  crecimiento de aquellas personas que viven y disfrutan el deporte del ciclismo.</p>
+            <p> <span class="fa fa-bicycle bulletpoint"></span>Esta va a ser la Convención anual a la altura que se merecen todas aquellas personas, deportistas
+            relacionadas con la industria y el deporte del ciclismo.</p>
+            <p> <span class="fa fa-bicycle bulletpoint"></span>Habrá exhibiciones de bicicletas, accesorios, equipo, ropa deportiva, productos nutricionales para
+      deportistas y toda la más alta tecnología disponible dentro del mundo del deporte. Esto se presentará en un área determinada y asignada para que los exhibidores presenten sus empresas y/o servicios. Se presentará lo último en tecnología, las más modernas bicicletas y accesorios de toda índole y se ofrecerán talleres y charlas relacionados para el mejoramiento del deporte del ciclismo en Puerto Rico.</p>
+	  <p>
+	  <span class="fa fa-bicycle bulletpoint"></span>RESERVA HOY PARA OBTENER UN DESCUENTO EN EL HOTEL OFICIAL DEL EVENTO !</p>
+	  <p><span class="fa fa-bicycle bulletpoint"></span>PARA RESERVAR EN EL HOTEL OFICIAL DEL EVENTO OPRIMA AQUI: <a href= "https://www.starwoodmeeting.com/Book/ExpoBici2016" alt= "Hotel Oficial de ExpoBiciPR"> <span style="color:#AF0000">Hotel Oficial de EXPOBICIPR</span></a>
+		</p>
           </div>
         </div>
 
       </div>
-   </section>    
+   </section>
    
-    <!-- **************************************************
-    ******************** FOOTER ***************************
-    *****************************************************-->
+	<?php include 'footer.php';?>
 
-    <?php include 'footer.php';?>
-
+	
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
     <!-- fix for navbar toggle not closing after opening -->

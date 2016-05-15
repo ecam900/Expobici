@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="es">
 
-	<head>
+  <head>
 
       <!-- GOOGLE FONTS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
     <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,700,500' rel='stylesheet' type='text/css'>
@@ -23,10 +23,12 @@
 
     <link rel="stylesheet" type="text/css" href="master.css">
 	<link rel="stylesheet" type="text/css" href="other-pages.css">
-		<title> Expo </title>
-	</head>
-	<body>
-		<?php include 'header.php';?>
+    <title> Expo </title>
+  </head>
+  <body>
+  
+	<?php include 'header.php';?>
+	
     <section>
       <div class="bg pic2 img-responsive container-fluid">
         <div class="hero-message text-center col-xs-12">
@@ -34,28 +36,25 @@
           <!-- NAV BAR TITLE HERE ************************************ -->
           <h1>EXPO<span style="color:white">BICIPR</span></h1>
           <div style="text-align:left">
-            <p> <span class="fa fa-bicycle bulletpoint"></span>We are pleased to inform you that we will celebrate the first ExpoBiciPR convention, on October, 15/16<br>
-              2016, in the Puerto Rico Convention Center in San Juan PR. We invite you to be part of this great show<br>
-              and the inclusion in the pioneer group of this great event, which we hope will become the busiest expo<br>
-              dedicated to cyclists in Puerto Rico. ExpoBiciPR will be the largest business platform to present the<br>
-              latest technology, accessories, equipment, clothing and everything related to the sport of cycling in<br>
-            Puerto Rico.</p>
+            <p> <span class="fa fa-bicycle bulletpoint"></span>Nos place informarles que celebraremos la primera ExpoBiciPR, los días 15 y 16 de octubre de 2016, en el
+Centro de Convenciones de Puerto Rico, en San Juan PR. Lo invitamos a ser parte de esta gran feria y que
+se incluya en el grupo pionero de este magno evento, el cual esperamos se convierta en la mayor actividad
+dedicada a los ciclistas en Puerto Rico. ExpoBiciPR será la plataforma de negocios más grande para
+presentar la última tecnología, accesorios, equipos, ropa y todo lo relacionado con el deporte del ciclismo
+en Puerto Rico.</p>
 
-            <p> <span class="fa fa-bicycle bulletpoint"></span>If your company is a supplier of bicycles, accessories, sportswear and/or sports nutrition products and<br>
-              wants to meet with the main buyers of cycling this event it is for you. If you want to get to an excellent<br>
-              and select group of consumers, then this is your OPPORTUNITY to publicize your services and products<br>
-            in the best exhibition platform.</p>
+            <p> <span class="fa fa-bicycle bulletpoint"></span>Si su empresa es proveedora de bicicletas, accesorios, ropa deportiva y productos nutricionales para
+deportistas y quiere reunirse con los principales compradores del ciclismo este evento es para usted. Si
+usted quiere llegar a un excelente y selecto grupo de consumidores, entonces esta es su OPORTUNIDAD,
+de dar a conocer sus servicios y productos en la mejor plataforma de exhibición.</p>
           </div>
         </div>
 
       </div>
-   </section>    
-   
-    <!-- **************************************************
-    ******************** FOOTER ***************************
-    *****************************************************-->
+   </section>
+ 
+	<?php include 'footer.php';?>
 
-    <?php include 'footer.php';?>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
