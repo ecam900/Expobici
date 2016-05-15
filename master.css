@@ -23,6 +23,10 @@ a:link {
   background-color: #2d2a28;
 }
 
+.container-fluid-w {
+  background-color: #FFFFFF;
+}
+
 h4 {
   color:#ffa500;
 }
@@ -380,8 +384,7 @@ h4 {
 *****************************/
 
 #footer {
-	margin-top: 100px;
-	height: 75px;
+	height: 15px;
 }
 
 
@@ -400,7 +403,8 @@ h4 {
 }
 
 .logoSlider {
-  margin-top: 75px;
+  margin-top: 5px;
+  
 }
 
 

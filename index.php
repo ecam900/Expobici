@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="es">
 
-	<head>
+  <head>
 
       <!-- GOOGLE FONTS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
     <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,700,500' rel='stylesheet' type='text/css'>
@@ -22,13 +22,11 @@
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 
     <link rel="stylesheet" type="text/css" href="master.css">
-		<title> ExpoBiciPR </title>
-	</head>
-	<body>
-	
-	
+    <title> ExpoBiciPR </title>
+  </head>
+  <body>
+  
 	<?php include 'header.php';?>
-
 
     <!-- **************************************************
     ************************ HERO TEXT ********************
@@ -37,8 +35,8 @@
       <div class='hero container-fluid text-center'>
         <div class='hero-message col-xs-8 col-xs-offset-2'>
           <h1> EXPO<span style="color:white">BICI</span>PR</h1>
-          <h3> OCTOBER 15/16 2016 </h3>
-          <h3> PUERTO RICO <span style="white-space:nowrap">CONVENTION CENTER</span></h3>
+          <h3> 15/16 DE OCTUBRE 2016 </h3>
+          <h3> CENTRO DE CONVENCIONES <span style="white-space:nowrap">DE PUERTO RICO</span></h3>
           <h3 style="white-space:nowrap"> EXHIBIT HALL C </H3>
       </div>
     </section>
@@ -49,12 +47,12 @@
     *****************************************************-->
     <section id="second-section">
       <div class='container-fluid text-center'>
-        <h3 id="el-evento"> EXPOBICIPR<span style="color:#F2A413"> THE EVENT</span> </h3>
+        <h3 id="el-evento"> EL EVENTO EXPO<span style="color:#F2A413">BICIPR</span> </h3>
       </div>
 
       <div class="sectwo container-fluid">
           <div id="secbox1" class="secbox transparent_box text-center col-sm-6 col-xs-12">
-            <h4> DESCRIPTION </h4>
+            <h4> DESCRIPCIÓN </h4>
             <div class="row">
               <div class="rowItem col-xs-2">
                 <div class="circle-border">
@@ -63,18 +61,13 @@
               </div>
               <div class="sectext">
                 <p>
-                  The first cyclist Expo in Puerto Rico. Targeted to all the 	cyclist community, from professional to 
-                  recreational cyclists will be able to share in a safe environment. There will be over 160 exhibitions that 
-will be presenting the new models of bicycles, accessories and sporting clothes. There will also be an 
-educational discussion where you and the audience will be able to enjoy and take part in a cycling ride 
-for the cyclists rights.
-
+                  La primera Expo de ciclismo en Puerto Rico. Toda la comunidad ciclista, tanto profesional como recreativa, compartirán en un ambiente seguro y verán sobre 160 exhibidores que presentarán los nuevos modelos de bicicletas, accesorios y ropa deportiva. Además de participar de charlas educativas y disfrutar de una corrida por los derechos del ciclista.
                 </p>
               </div>
             </div>
           </div>
           <div id="secbox2" class="secbox transparent_box text-center col-sm-6 col-xs-12">
-            <h4> WHEN? </h4>
+            <h4> ¿CUANDO? </h4>
             <div class="row">
               <div class="rowItem col-xs-2">
                 <div class="circle-border">
@@ -82,16 +75,16 @@ for the cyclists rights.
                 </div>
               </div>
               <div class="left-date">
-                <h3> October 15 / 16 , 2016 </h3>
+                <h3> Sábado 15 y Domingo 16 de Octubre de 2016 </h3>
               </div>
-              <img class="box2pic img-responsive" src="../images/pcc.png"></img> 
+              <img class="box2pic img-responsive" src="images/pcc.png"></img> 
            </div>
           </div>
         </div>
       </div>
     </section>
-	
-	
+
+
     <!-- **************************************************
     ****************** THIRD SECTION  *********************
     *****************************************************-->
@@ -116,7 +109,7 @@ for the cyclists rights.
           <div class="contact-info col-xs-12 col-sm-6">
             <div class="row">
               <div class="col-xs-6">
-                <h4 style="padding-bottom:10px"> Contacts </h4>
+                <h4 style="padding-bottom:10px"> Contacto </h4>
                 <h5 style="white-space:nowrap"> José Alonso</h5>
                 <div class="row">
                   <span style="white-space:nowrap">
@@ -140,9 +133,9 @@ for the cyclists rights.
               </div>
               <!-- FACEBOOK INFO INSIDE CONTACT BOX -->
               <div class="facebook col-xs-12 col-sm-6">
-                <h4>'Like' us on Facebook!</h4>
+                <h4>¡Danos un 'like' en Facebook!</h4>
                 <div class='fb-logo'>
-                  <a href="https://www.facebook.com/ExpoBicipr"><img id="fb-button" class="img-responsive" src="../images/facebook.svg"></img></a>
+                  <a href="https://www.facebook.com/ExpoBicipr"><img id="fb-button" class="img-responsive" src="images/facebook.svg"></img></a>
                 </div>  
               </div>
             </div> <!-- Contact Row End -->
@@ -155,21 +148,23 @@ for the cyclists rights.
     <!-- **************************************************
     ******************** FOOTER ***************************
     *****************************************************-->
+	
     <div class="container-fluid container-fluid-w">
       <section id="footer">
         <!-- slider -->
         <div class="logoSlider col-xs-10 col-xs-offset-1">
-          <div><a href="http://gtama.com"><img src="../images/gtama.png" class="img img-responsive"  alt=""></a></div>
-          <div><a href="http://qualityav.com"><img src="../images/qav.png" class="img img-responsive" alt=""></a></div>
-          <div><a href="http://lakecycling.com/"><img src="../images/lake.png" class="img img-responsive"  alt=""></a></div>
-          <div><a href="http://yolorestaurantbar.com"><img src="../images/yolo.png" class="img img-responsive" alt=""></a></div>
-          <div><a href="http://kasalta.com"><img src="../images/kasalta.png" class="img img-responsive" alt=""></a></div> 
-		  <div><a href="http://bikes4youpr.com"><img src="../images/b4y.jpg" class="img img-responsive" alt=""></a></div>
-		  <div><a href="http://trekbikes.com"><img src="../images/trek.jpg" class="img img-responsive" alt=""></a></div>
-		  <div><a href="http://alfredoruiz.org/"><img src="../images/fundacion.png" class="img img-responsive" alt=""></a></div>
+          <div><a href="http://gtama.com"><img src="images/gtama.png" class="img img-responsive"  alt=""></a></div>
+          <div><a href="http://qualityav.com"><img src="images/qav.png" class="img img-responsive" alt=""></a></div>
+          <div><a href="http://lakecycling.com/"><img src="images/lake.png" class="img img-responsive"  alt=""></a></div>
+          <div><a href="http://yolorestaurantbar.com"><img src="images/yolo.png" class="img img-responsive" alt=""></a></div>
+          <div><a href="http://kasalta.com"><img src="images/kasalta.png" class="img img-responsive" alt=""></a></div> 
+		  <div><a href="http://bikes4youpr.com"><img src="images/b4y.jpg" class="img img-responsive" alt=""></a></div>
+		  <div><a href="http://trekbikes.com"><img src="images/trek.jpg" class="img img-responsive" alt=""></a></div>
+		  <div><a href="http://alfredoruiz.org/"><img src="images/fundacion.png" class="img img-responsive" alt=""></a></div>
 		</div><!-- /slider -->
       </section> <!-- /footer -->
     </div><!-- /container-fluid -->
+	
 
 
 

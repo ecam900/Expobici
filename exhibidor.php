@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="es">
 
-	<head>
+  <head>
 
       <!-- GOOGLE FONTS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
     <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,700,500' rel='stylesheet' type='text/css'>
@@ -23,39 +23,32 @@
 
     <link rel="stylesheet" type="text/css" href="master.css">
 	<link rel="stylesheet" type="text/css" href="other-pages.css">
-		<title> Expo </title>
-	</head>
-	<body>
-		<?php include 'header.php';?>
+    <title> Exhibidor </title>
+  </head>
+  <body>
+  
+	<?php include 'header.php';?>
+	
     <section>
-      <div class="bg pic2 img-responsive container-fluid">
+      <div class="bg pic4 img-responsive container-fluid">
         <div class="hero-message text-center col-xs-12">
 
           <!-- NAV BAR TITLE HERE ************************************ -->
-          <h1>EXPO<span style="color:white">BICIPR</span></h1>
+          <h1>ESPACIO DE <span style="color:white">EXHIBIDOR</span></h1>
           <div style="text-align:left">
-            <p> <span class="fa fa-bicycle bulletpoint"></span>We are pleased to inform you that we will celebrate the first ExpoBiciPR convention, on October, 15/16<br>
-              2016, in the Puerto Rico Convention Center in San Juan PR. We invite you to be part of this great show<br>
-              and the inclusion in the pioneer group of this great event, which we hope will become the busiest expo<br>
-              dedicated to cyclists in Puerto Rico. ExpoBiciPR will be the largest business platform to present the<br>
-              latest technology, accessories, equipment, clothing and everything related to the sport of cycling in<br>
-            Puerto Rico.</p>
-
-            <p> <span class="fa fa-bicycle bulletpoint"></span>If your company is a supplier of bicycles, accessories, sportswear and/or sports nutrition products and<br>
-              wants to meet with the main buyers of cycling this event it is for you. If you want to get to an excellent<br>
-              and select group of consumers, then this is your OPPORTUNITY to publicize your services and products<br>
-            in the best exhibition platform.</p>
-          </div>
+                <p> <span class="fa fa-bicycle bulletpoint"></span>$8.00 el pie cuadrado de exhibición, mínimo 100 pies cuadrados  (10’ x 10’) para exhibición de productos y/o servicios.</p>
+            <p> <span class="fa fa-bicycle bulletpoint"></span>Montaje:<br>14 de Octubre de 2016<br>Horario:<br>10:00 am hasta 9:00 pm</p>
+            <p> <span class="fa fa-bicycle bulletpoint"></span>Exhibición:<br>15/16 de Octubre de 2016<br>Horario:<br>Sábado - 9:00 am hasta 7:00 pm<br>Domingo - 9:00 am hasta 6:00 pm</p>
+              <h1 id="inversion">Inversión $800.00</h1>
+            </div>
+         </div>
+          
         </div>
-
       </div>
-   </section>    
-   
-    <!-- **************************************************
-    ******************** FOOTER ***************************
-    *****************************************************-->
+   </section>
+ 
+<?php include 'footer.php';?>
 
-    <?php include 'footer.php';?>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
