@@ -20,8 +20,8 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id=".navbar-collapse">
               <ul class="nav navbar-nav navbar-left">
-                <li class="navlink"><a href="que-es-expobicipr.php">QUE ES EXPOBICIPR?</a></li>
-                <li class="navlink"><a href="expo.php">EXPO</a></li>
+                <li class="navlink"><a href="que-es-expobicipr.php">¿QUÉ ES EXPOBICIPR?</a></li>
+                <li class="navlink"><a href="alojamiento.php">ALOJAMIENTO</a></li>
                 <li class="navlink"><a href="oportunidades.php">OPORTUNIDADES</a></li>
                 <li class="navlink"><a href="exhibidor.php">EXHIBIDOR</a></li>
                 <li class="navlink"><a href="planos.php">PLANOS</a></li>

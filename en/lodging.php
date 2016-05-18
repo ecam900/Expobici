@@ -22,76 +22,38 @@
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 
     <link rel="stylesheet" type="text/css" href="master.css">
-		<title> ExpoBiciPR </title>
+	<link rel="stylesheet" type="text/css" href="other-pages.css">
+		<title> Lodging </title>
 	</head>
 	<body>
-	
-	
-	<?php include 'header.php';?>
-
-
-    <!-- **************************************************
-    ************************ HERO TEXT ********************
-    *****************************************************-->
+		<?php include 'header.php';?>
     <section>
-      <div class='hero container-fluid text-center'>
-        <div class='hero-message col-xs-8 col-xs-offset-2'>
-          <h1> EXPO<span style="color:white">BICI</span>PR</h1>
-          <h3> OCTOBER 15/16 2016 </h3>
-          <h3> PUERTO RICO <span style="white-space:nowrap">CONVENTION CENTER</span></h3>
-          <h3 style="white-space:nowrap"> EXHIBIT HALL C </H3>
-      </div>
-    </section>
+      <div class="bg pic2 img-responsive container-fluid">
+        <div class="hero-message text-center col-xs-12">
 
+          <!-- NAV BAR TITLE HERE ************************************ -->
+          <h1>LOD<span style="color:white">GING</span></h1>
+          <div style="text-align:left">
+            <p> <span class="fa fa-bicycle bulletpoint"></span>We are pleased to inform you that we will celebrate the first ExpoBiciPR convention, on October, 15/16<br>
+              2016, in the Puerto Rico Convention Center in San Juan PR. We invite you to be part of this great show<br>
+              and the inclusion in the pioneer group of this great event, which we hope will become the busiest expo<br>
+              dedicated to cyclists in Puerto Rico. ExpoBiciPR will be the largest business platform to present the<br>
+              latest technology, accessories, equipment, clothing and everything related to the sport of cycling in<br>
+            Puerto Rico.</p>
 
-    <!-- **************************************************
-    ***************** SECOND SECTION  *********************
-    *****************************************************-->
-    <section id="second-section">
-      <div class='container-fluid text-center'>
-        <h3 id="el-evento"> EXPOBICIPR<span style="color:#F2A413"> THE EVENT</span> </h3>
-      </div>
-
-      <div class="sectwo container-fluid">
-          <div id="secbox1" class="secbox transparent_box text-center col-sm-6 col-xs-12">
-            <h4> DESCRIPTION </h4>
-            <div class="row">
-              <div class="rowItem col-xs-2">
-                <div class="circle-border">
-                  <i class="fa fa-bicycle"></i>
-                </div>
-              </div>
-              <div class="sectext">
-                <p>
-                  The first cyclist Expo in Puerto Rico. Targeted to all the 	cyclist community, from professional to 
-                  recreational cyclists will be able to share in a safe environment. There will be over 160 exhibitions that 
-will be presenting the new models of bicycles, accessories and sporting clothes. There will also be an 
-educational discussion where you and the audience will be able to enjoy and take part in a cycling ride 
-for the cyclists rights.
-
-                </p>
-              </div>
-            </div>
-          </div>
-          <div id="secbox2" class="secbox transparent_box text-center col-sm-6 col-xs-12">
-            <h4> WHEN? </h4>
-            <div class="row">
-              <div class="rowItem col-xs-2">
-                <div class="circle-border">
-                  <i class="fa fa-calendar"></i>
-                </div>
-              </div>
-              <div class="left-date">
-                <h3> October 15 / 16 , 2016 </h3>
-              </div>
-              <img class="box2pic img-responsive" src="../images/pcc.png"></img> 
-           </div>
+            <p> <span class="fa fa-bicycle bulletpoint"></span>If your company is a supplier of bicycles, accessories, sportswear and/or sports nutrition products and<br>
+              wants to meet with the main buyers of cycling this event it is for you. If you want to get to an excellent<br>
+              and select group of consumers, then this is your OPPORTUNITY to publicize your services and products<br>
+            in the best exhibition platform.</p>
+            <p><span class="fa fa-bicycle bulletpoint"></span>BOOK TODAY TO OBTAIN A DISCOUNT IN THE OFFICIAL HOTEL OF EXPOBICIPR !</p>
+<p><span class="fa fa-bicycle bulletpoint"></span>TO BOOK IN THE OFFICIAL HOTEL OF THIS EVENT PLEASE CLICK THE FOLLOWING LINK: <a href= "https://www.starwoodmeeting.com/Book/ExpoBici2016" alt= "Official Hotel of EXPOBICIPR"> <span style="color:#AF0000">Sheraton Puerto Rico Hotel & Casino</span>
+    </p>
           </div>
         </div>
+
       </div>
-    </section>
-	
-	
+   </section>    
+   
     <!-- **************************************************
     ****************** THIRD SECTION  *********************
     *****************************************************-->
@@ -103,15 +65,13 @@ for the cyclists rights.
           <div id="google-map" class="sec3box col-xs-12 col-sm-6">
 
             <!-- **************************************************
-             *****************  YOUTUBE VIDEO ********************
+            ******************** GOOGLE MAPS  *************************
             *****************************************************-->
 
-            <div class="videoWrapper">
-                <!-- Copy & Pasted from YouTube -->
-               <iframe width="560" height="315" src="https://www.youtube.com/embed/lkY4P0VpRPk" frameborder="0" allowfullscreen></iframe>
-            </div>
+            <!-- No Scroll Overlay-->
+            <div class="overlay" onClick="style.pointerEvents='none'"></div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3003.879742609895!2d-66.09257527295864!3d18.45413286764112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c036f2903879277%3A0x6ae3c5801f708e89!2sSheraton+Puerto+Rico+Hotel+%26+Casino!5e0!3m2!1sen!2spr!4v1463464126746" width="100%" height="460.44" frameborder="0" style="border:0" allowfullscreen></iframe>
           </div>
-
 
           <div class="contact-info col-xs-12 col-sm-6">
             <div class="row">
@@ -174,7 +134,6 @@ for the cyclists rights.
       </div><!-- /sec3 -->
     </section><!-- /third-section -->
 
-
     <!-- **************************************************
     ******************** FOOTER ***************************
     *****************************************************-->
@@ -182,8 +141,6 @@ for the cyclists rights.
       <section id="footer">
 
       </section> <!-- /footer -->
-
-	 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
