@@ -21,7 +21,7 @@
             <div class="collapse navbar-collapse" id=".navbar-collapse">
               <ul class="nav navbar-nav navbar-left">
                 <li class="navlink"><a href="what-is-expobicipr.php">WHAT IS EXPOBICIPR?</a></li>
-                <li class="navlink"><a href="expo.php">EXPO</a></li>
+                <li class="navlink"><a href="lodging.php">LODGING</a></li>
                 <li class="navlink"><a href="opportunities.php">OPPORTUNITIES</a></li>
                 <li class="navlink"><a href="exhibitor.php">EXHIBITOR</a></li>
                 <li class="navlink"><a href="designs.php">DESIGNS</a></li>
